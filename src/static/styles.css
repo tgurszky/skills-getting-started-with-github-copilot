@@ -108,6 +108,21 @@ button:hover {
   background-color: #3949ab;
 }
 
+button.delete-button {
+  background-color: #e57373;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button.delete-button:hover {
+  background-color: #d32f2f;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
@@ -134,6 +149,31 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+.participants {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.participants ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.participants li {
+  margin-bottom: 5px;
+  color: #555;
 }
 
 footer {
